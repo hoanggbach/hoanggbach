@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VietnamToiYeu</title>
+    <!-- BOOTSTRAP 5 -->
+    <link rel="stylesheet" href="Inside/css/bootstrap.css">
+    <!-- STYLE -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <!-- Image of the website -->
+            <div class="col-2">
+                <div class="container">
+                    <h4 style="margin: 0 !important;">
+                        <img src="Inside/img/flag.png" alt="" width="30" height="30">
+                        <a class="navbar-brand" href="http://127.0.0.1:5500/">
+                            Vietnam
+                        </a>    
+                    </h4>        
+                </div>
+            </div>
+            <!-- Menu of the website -->
+            <div class="col-10">
+                <ul class="nav justify-content-end" id="menu" style="padding-right: 15px;">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Main Menu 💁‍♂️</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="places.html" class="nav-link">Places To Go 📈</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="culture.html" class="nav-link">Culture 🎇</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#footer" class="nav-link">Contact 📞</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- KHUNG -->
+    <div id="khung" class="container-lg" style="margin-top: 35px;">
+        <main>
+            <div class="full text-center">
+            <div class="brief">
+                <h1 class="title"><b>Vietnam</b> A Thousand Experiences, One Incredible Journey </h1>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="Inside/img/vn333.jpg" alt="Vietnam Places" class="gioithieu-picture" style="width: 100%;">
+                    </div>
+                    <siv class="col-8 text-holder">
+                        <p class="text" style="font-size: 20px;">
+                            Vietnam offers a wealth of destinations, catering to a wide range of interests. It's difficult to give a precise "number" of places to visit, as what constitutes a "place" can vary greatly (a single temple vs. an entire region). Instead of focusing on a specific number, it's more accurate to say that Vietnam offers a vast and diverse array of destinations. Whether you're interested in history, culture, nature, or adventure, you'll find an abundance of places to explore and discover in this captivating country. The possibilities are truly extensive, promising a rich and rewarding travel experience.
+                        </p>
+                    </siv>
+                </div>
+                </div>
+            </div>
+                <div class="food text-center" style="margin: 35px 0 35px 0;">
+                    <h2 style="margin-bottom: 35px;">Places To Visit in Vietnam</h2>
+                    <div class="row" id="Ptg1">
+    
+                    </div>
+                </div>
+        </main>
+    </div>
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div id="lienhe" class="text-center" style="padding-bottom: 25px;" class="thumb">
+            <p style="padding-top: 15px;">&copy; Bản quyền thuộc về BxxxCompany</p>
+            <div style="margin-bottom: 5px;">
+                <p class="contact" style="display: block;"><b>Liên hệ chúng tôi tại:</b></p>
+            </div>
+            <p class="contact">Email: c3macdinhchi.tphcm@moet.edu.vn</p>
+            <p class="contact">SĐT: 02836756951</p>
+            <p class="contact" style="margin-bottom: 0;">Social Media: <a href="facebook.com">Facebook</a></p>
+        </div>
+    </footer>
+    
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+    <script>
+        window.onload = function(){
+            renderPtg1();
+        }
+    </script>
+</body>
+</html>
